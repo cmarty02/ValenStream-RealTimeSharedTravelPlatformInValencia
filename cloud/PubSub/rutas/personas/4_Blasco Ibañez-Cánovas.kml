@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Mapa sin nombre</name>
+    <description/>
+    <Style id="icon-1899-DB4436-nodesc-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-DB4436-nodesc-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-DB4436-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-DB4436-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-DB4436-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-1267FF-5000-nodesc-normal">
+      <LineStyle>
+        <color>ffff6712</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-1267FF-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ffff6712</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-1267FF-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-1267FF-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-1267FF-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Capa sin nombre</name>
+    </Folder>
+    <Folder>
+      <name>Indicaciones de Avinguda de Blasco Ibáñez, Valencia a Canovas, Calle Joaquín Costa, Valencia</name>
+      <Placemark>
+        <name>Indicaciones de Avinguda de Blasco Ibáñez, Valencia a Canovas, Calle Joaquín Costa, Valencia</name>
+        <styleUrl>#line-1267FF-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -0.34801,39.47371,0
+            -0.34797,39.4737,0
+            -0.34793,39.47368,0
+            -0.34789,39.47367,0
+            -0.34785,39.47366,0
+            -0.34781,39.47366,0
+            -0.34776,39.47366,0
+            -0.34772,39.47366,0
+            -0.34771,39.47366,0
+            -0.3477,39.47366,0
+            -0.34769,39.47367,0
+            -0.34768,39.47367,0
+            -0.34767,39.47367,0
+            -0.34766,39.47367,0
+            -0.34765,39.47368,0
+            -0.34761,39.47368,0
+            -0.34757,39.4737,0
+            -0.34754,39.47371,0
+            -0.3475,39.47373,0
+            -0.34747,39.47375,0
+            -0.34744,39.47377,0
+            -0.34742,39.4738,0
+            -0.3474,39.47383,0
+            -0.34738,39.47386,0
+            -0.34737,39.4739,0
+            -0.34736,39.47393,0
+            -0.34736,39.47397,0
+            -0.34737,39.474,0
+            -0.34738,39.47403,0
+            -0.34739,39.47407,0
+            -0.34741,39.4741,0
+            -0.34744,39.47413,0
+            -0.34745,39.47414,0
+            -0.34746,39.47414,0
+            -0.34748,39.47415,0
+            -0.34749,39.47416,0
+            -0.3475,39.47417,0
+            -0.34752,39.47418,0
+            -0.34753,39.47419,0
+            -0.34755,39.47419,0
+            -0.34758,39.47421,0
+            -0.34761,39.47422,0
+            -0.34765,39.47423,0
+            -0.34768,39.47424,0
+            -0.34772,39.47425,0
+            -0.34776,39.47425,0
+            -0.34779,39.47425,0
+            -0.34783,39.47425,0
+            -0.34787,39.47425,0
+            -0.34791,39.47424,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Avinguda de Blasco Ibáñez, Valencia</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Canovas, Calle Joaquín Costa, Valencia</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

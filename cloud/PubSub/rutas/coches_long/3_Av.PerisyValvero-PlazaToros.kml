@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Mapa sin nombre</name>
+    <description/>
+    <Style id="icon-1899-DB4436-nodesc-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-DB4436-nodesc-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-DB4436-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-DB4436-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-DB4436-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-1267FF-5000-nodesc-normal">
+      <LineStyle>
+        <color>ffff6712</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-1267FF-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ffff6712</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-1267FF-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-1267FF-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-1267FF-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Capa sin nombre</name>
+    </Folder>
+    <Folder>
+      <name>Indicaciones de Avenida de Peris y Valero, Valencia a Plaza de Toros de Valencia, Carrer de Xàtiva, Valencia</name>
+      <Placemark>
+        <name>Indicaciones de Avenida de Peris y Valero, Valencia a Plaza de Toros de Valencia, Carrer de Xàtiva, Valencia</name>
+        <styleUrl>#line-1267FF-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -0.37042,39.45922,0
+            -0.37144,39.4588,0
+            -0.37264,39.45829,0
+            -0.3728,39.45822,0
+            -0.37283,39.45824,0
+            -0.37285,39.45826,0
+            -0.37286,39.45828,0
+            -0.37342,39.45908,0
+            -0.37433,39.46034,0
+            -0.37479,39.46101,0
+            -0.37518,39.46157,0
+            -0.3752,39.4616,0
+            -0.37556,39.46209,0
+            -0.37595,39.46266,0
+            -0.37637,39.46327,0
+            -0.3765,39.46346,0
+            -0.37656,39.46358,0
+            -0.37625,39.46377,0
+            -0.37618,39.46381,0
+            -0.37617,39.46382,0
+            -0.37616,39.46383,0
+            -0.37615,39.46387,0
+            -0.37581,39.464,0
+            -0.37529,39.46423,0
+            -0.37449,39.46456,0
+            -0.37396,39.46475,0
+            -0.3737,39.46482,0
+            -0.37349,39.46488,0
+            -0.37328,39.46497,0
+            -0.37304,39.46507,0
+            -0.37295,39.4651,0
+            -0.37301,39.46525,0
+            -0.37309,39.46536,0
+            -0.37329,39.46527,0
+            -0.37346,39.4652,0
+            -0.37375,39.46508,0
+            -0.37393,39.46511,0
+            -0.37399,39.46523,0
+            -0.37434,39.46589,0
+            -0.37444,39.46607,0
+            -0.37454,39.46629,0
+            -0.37485,39.46698,0
+            -0.37493,39.46715,0
+            -0.37497,39.46714,0
+            -0.37503,39.46713,0
+            -0.37509,39.46712,0
+            -0.37515,39.46711,0
+            -0.3752,39.46711,0
+            -0.37524,39.46711,0
+            -0.3753,39.46711,0
+            -0.37582,39.46725,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Avenida de Peris y Valero, Valencia</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -0.370424,39.4592225,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Plaza de Toros de Valencia, Carrer de Xàtiva, Valencia</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -0.3758224,39.4672536,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

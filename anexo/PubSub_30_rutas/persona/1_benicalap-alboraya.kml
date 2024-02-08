@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Mapa sin nombre</name>
+    <description/>
+    <Style id="icon-1899-DB4436-nodesc-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-DB4436-nodesc-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-DB4436-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-DB4436-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-DB4436-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-1267FF-5000-nodesc-normal">
+      <LineStyle>
+        <color>ffff6712</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-1267FF-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ffff6712</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-1267FF-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-1267FF-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-1267FF-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Capa sin nombre</name>
+    </Folder>
+    <Folder>
+      <name>Indicaciones de Benicalap, Valencia a Alboraya</name>
+      <Placemark>
+        <name>Indicaciones de Benicalap, Valencia a Alboraya</name>
+        <styleUrl>#line-1267FF-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -0.3914,39.4934,0
+            -0.3915,39.49344,0
+            -0.3919,39.49358,0
+            -0.39234,39.49375,0
+            -0.39125,39.49445,0
+            -0.39117,39.49438,0
+            -0.39109,39.49432,0
+            -0.39041,39.49474,0
+            -0.39014,39.49492,0
+            -0.38942,39.49537,0
+            -0.38838,39.49597,0
+            -0.38742,39.49658,0
+            -0.3873,39.49666,0
+            -0.38712,39.49677,0
+            -0.38688,39.49693,0
+            -0.38672,39.49703,0
+            -0.38666,39.49706,0
+            -0.38642,39.49721,0
+            -0.38634,39.49717,0
+            -0.38627,39.49714,0
+            -0.3862,39.49713,0
+            -0.38612,39.49713,0
+            -0.38609,39.49713,0
+            -0.38604,39.49713,0
+            -0.38597,39.49715,0
+            -0.38589,39.49718,0
+            -0.38583,39.49721,0
+            -0.38581,39.49722,0
+            -0.38515,39.49742,0
+            -0.38509,39.49744,0
+            -0.38505,39.49743,0
+            -0.38496,39.49744,0
+            -0.38494,39.49744,0
+            -0.38492,39.49744,0
+            -0.3849,39.49745,0
+            -0.38488,39.49746,0
+            -0.38486,39.49747,0
+            -0.38484,39.49748,0
+            -0.38482,39.49749,0
+            -0.3848,39.4975,0
+            -0.38477,39.49753,0
+            -0.38473,39.49756,0
+            -0.3847,39.49759,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Benicalap, Valencia</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -0.3914029,39.4934032,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Alboraya</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -0.3510397,39.4989346,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
